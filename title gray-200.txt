@@ -1,0 +1,8 @@
+title gray-200
+bg blue-900
+gray-900
+gray-700
+yellow-300
+
+dot blue-800
+small tittle gray-300
