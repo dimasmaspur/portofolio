@@ -9,14 +9,22 @@
 <body>
     <section class="w-full bg-blue-900">
         <div class="container mx-auto py-4">
-            <nav class="hidden md:flex lg:flex justify-center ">
+            <!-- <nav class="hidden md:flex lg:flex justify-center ">
                 <a href="#" class="text-sm text-gray-300 font-poppins mx-6 py-1 hover:text-yellow-300">Home</a>
                 <a href="#" class="text-sm text-gray-300 font-poppins mx-6 py-1 hover:text-yellow-300">Services</a>
                 <a href="#" class="text-sm text-gray-300 font-poppins mx-6 py-1 hover:text-yellow-300">Projects</a>
                 <a href="#" class="text-sm text-gray-300 font-poppins mx-6 py-1 hover:text-yellow-300">Contact</a>
 
-            </nav>
-                <img src="public/images/burger.svg" alt="burger icon" class="w-5 h-5 float-right mr-4 mb-2 md:hidden lg:hidden">
+            </nav> -->
+                <!-- <img src="public/images/burger.svg" alt="burger icon" class="w-5 h-5 float-right mr-4 mb-2 md:hidden lg:hidden" onclick="myFunction()" id="buttonburger">
+                <div class="burger hidden h-full w-full md:hidden px-4 fix" id="navbarres">
+                    <nav class="flex flex-col justify-center md:hidden">
+                        <a href="#" class="text-sm text-gray-300 font-poppins  pt-0 pb-1 hover:text-yellow-300">Home</a>
+                        <a href="#" class="text-sm text-gray-300 font-poppins  py-1 hover:text-yellow-300">Services</a>
+                        <a href="#" class="text-sm text-gray-300 font-poppins  py-1 hover:text-yellow-300">Projects</a>
+                        <a href="#" class="text-sm text-gray-300 font-poppins  py-1 hover:text-yellow-300">Contact</a>
+                    </nav>
+                </div> -->
         </div>
         <div class="container mx-auto px-4 my-6 md:my-12 md:px-4 lg:my-12">
             <h1 class="font-poppins font-light  text-gray-200 text-2xl  md:text-4xl lg:text-6xl">I'm Dimas Purwanto.</p>
@@ -24,16 +32,16 @@
         </div>
        <div class="container mx-auto flex flex-col-reverse justify-between px-4 md:flex-row ">
             <div class="cv text-center py-8 md:py-16 ">
-                <div class="sosmed justify-center flex flex-row md:flex-col md:items-start">
-                    <img src="public/images/linkedin.svg" class="px-1 md:py-2" alt="linkedin">
-                    <img src="public/images/github.svg"  alt="github" class="px-1 md:py-2">
-                    <img src="public/images/wa.svg" alt="wa" class="px-1 md:py-2">
-                    <img src="public/images/ig.svg" alt="ig" class="px-1 md:py-2">
+                <div class="sosmed justify-center mt-8 flex flex-row md:flex-col md:mt-0 md:items-start">
+                    <a href="https://www.linkedin.com/in/dimasmaspur/" target="_blank"><img src="public/images/linkedin.svg" class="px-3 md:px-0 md:py-2" alt="linkedin"></a>
+                    <a href="https://github.com/dimasmaspur" target="_blank"><img src="public/images/github.svg"  alt="github" class="px-3 md:px-0 md:py-2"></a>
+                    <a href="https://api.whatsapp.com/send?phone=6285717320558&text=Halo" target="_blank"><img src="public/images/wa.svg" alt="wa" class="px-3 md:px-0 md:py-2"></a>
+                    <a href="https://instagram.com/dimasmaspur" target="_blank"><img src="public/images/ig.svg" alt="ig" class="px-3 md:px-0 md:py-2"></a>
                 </div>
                 <br>
-                <a href="#" class="font-poppins  font-medium text-yellow-300 text-lg md:text-xl">Download CV</a>
+                <a href="public/CV-DIMAS-PURWANTO.pdf" target="_blank" class="font-poppins  font-medium text-yellow-300 text-lg md:text-xl hover:text-yellow-200">Download CV</a>
             </div>
-            <div class="hero">
+            <div class="hero mt-8 md:mt-0">
                 <img src="public/images/img-hero.svg" alt="gambar dimas purwanto">
             </div>
         </div> 
@@ -41,11 +49,11 @@
     <section class="experince w-full bg-blue-900 pt-4 pb-2 md:pt-20 lg:pt-20 ">
         <div class="container mx-auto">
             <p class="font-poppins font-light text-gray-300 text-center pb-2 text-sm md:pb-6 lg:pb-6">Experince with</p>
-            <div class="skill flex flex-col md:flex-row lg:flex-row justify-between items-center">
+            <div class="skill flex flex-row flex-wrap justify-evenly px-4 md:px-0 md:flex-row lg:flex-row md:justify-between md:items-center">
                 <img src="public/images/react.png" alt="react js" class="h-8 my-2 md:h-10 md:mx-2 lg:h-full">
                 <img src="public/images/react-native.png" alt="react native" class="h-8 my-2 md:h-10 md:mx-2 lg:h-full">
-                <img src="public/images/node.png" alt="node js" class="h-8 my-2 md:h-10 md:mx-2 lg:h-full">
-                <img src="public/images/laravel.png" alt="laravel" class="h-8 my-2 md:h-10 md:mx-2 lg:h-full">
+                <img src="public/images/node.png" alt="node js" class="h-8 px-4 my-2 md:px-0 md:h-10 md:mx-2 lg:h-full">
+                <img src="public/images/laravel.png" alt="laravel" class="h-8 px-2 my-2 md:px-0 md:h-10 md:mx-2 lg:h-full">
                 <img src="public/images/ci.png" alt="codeigniter" class="h-14 my-2 md:h-12 md:mx-2 lg:h-full">
             </div>
         </div>
@@ -72,24 +80,29 @@
     <section class="projects bg-blue-900  pt-12  pb-12  md:pb-48">
         <div class="container mx-auto px-4 md:px-4 lg-px-0">
             <h1 class="w-max text-2xl font-poppins font-medium text-gray-200 pb-2 border-b-2 border-yellow-300 md:pt-28 md:text-4xl lg:text-5xl">Projects.</h1>
-            <p class="font-poppins text-gray-300 text-sm font-light mt-1 md:text-sm">Lorem ipsum dolor sit amet consectetur </p>
+            <p class="font-poppins text-gray-300 text-sm font-light mt-1 md:text-sm">A few of my work, hand-crafted & made with love</p>
             <!-- kiri -->
             <div class="projectnya flex flex-col mt-8 md:flex-row md:mt-14">
                 <div class="gambar md:w-1/2">
-                    <img src="public/images/umkm.JPG" alt="project dimas purwanto" class="w-full md:w-11/12 max-h ">
+                    <img src="public/images/sinau.jpg" alt="project dimas purwanto" class="w-full md:w-11/12 max-h ">
                 </div>
                 <div class="keterangan w-full mt-1 md:w-1/2">
-                    <p class="text-yellow-300 font-poppins font-light text-sm">Website</p>
-                    <h2 class="text-gray-200 font-poppins font-regular  text-xl pb-1 md:text-3xl md:pb-4 md:pt-1 ">Klik Umkm</h2>
-                    <p class="font-poppins text-gray-300 font-light text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium libero at assumenda labore reiciendis eaque nulla quis explicabo animi perferendis? Eius blanditiis vel quas corrupti consectetur voluptatibus dolorum minima nam!</p>
+                    <p class="text-yellow-300 font-poppins font-light text-sm">Website, Microservices, Restful API</p>
+                    <h2 class="text-gray-200 font-poppins font-regular  text-xl pb-1 md:text-3xl md:pb-4 md:pt-1 ">SINAU</h2>
+                    <p class="font-poppins text-gray-300 font-light text-sm mb-2 md:mb-4 md:text-lg">Sinau Website that provides various online courses and made with microservices architecture. The technology in used is React JS, Next JS for frontend & Nodejs, Laravel and Mysql for Backend.
+                    </p>
+                    <a href="https://github.com/dimasmaspur" target="_blank" class="font-poppins font-light underline text-gray-400">View in Github</a>
+
                 </div>
             </div>
             <!-- kanan -->
             <div class="projectnya flex flex-col-reverse mt-8 md:flex-row md:mt-14">
                 <div class="keterangan w-full text-right mt-1 md:w-1/2">
-                    <p class="text-yellow-300 font-poppins font-light text-sm">Mobile Apps</p>
+                    <p class="text-yellow-300 font-poppins font-light text-sm">Mobile Apps, Android, Googlemap API</p>
                     <h2 class="text-gray-200 font-poppins font-regular  text-xl pb-1 md:text-3xl md:pb-4 md:pt-1 ">TAMBALANQU</h2>
-                    <p class="font-poppins text-gray-300 font-light text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium libero at assumenda labore reiciendis eaque nulla quis explicabo animi perferendis? Eius blanditiis vel quas corrupti consectetur voluptatibus dolorum minima nam!</p>
+                    <p class="font-poppins text-gray-300 font-light text-sm mb-2 md:mb-4 md:text-lg">Tambalanqu is an android application for finding the location of the nearest tire repair shop. 
+                        connected with google map api so the specified location is accurate.</p>
+                    <a href="https://github.com/dimasmaspur/TambalanQu" target="_blank" class="font-poppins font-light underline text-gray-400 hover:text-gray-200">View in Github</a>
                 </div>
                 <div class="gambar md:w-1/2">
                     <img src="public/images/tambalanku.jpg" alt="project dimas purwanto" class="w-full md:w-11/12 max-h md:float-right">
@@ -103,7 +116,10 @@
                 <div class="keterangan w-full mt-1 md:w-1/2">
                     <p class="text-yellow-300 font-poppins font-light text-sm">Website</p>
                     <h2 class="text-gray-200 font-poppins font-regular  text-xl pb-1 md:text-3xl md:pb-4 md:pt-1 ">SIAFAR</h2>
-                    <p class="font-poppins text-gray-300 font-light text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium libero at assumenda labore reiciendis eaque nulla quis explicabo animi perferendis? Eius blanditiis vel quas corrupti consectetur voluptatibus dolorum minima nam!</p>
+                    <p class="font-poppins text-gray-300 font-light text-sm mb-2 md:mb-4 md:text-lg">SIAFAR is (Sistem Arsip Farmasi) Document Management System,
+                        built for the purposes of government pharmaceutical archives.</p>
+                    <a href="https://github.com/dimasmaspur" target="_blank"  class="font-poppins font-light underline text-gray-400 hover:text-gray-200">View in Github</a>
+
                 </div>
             </div>
             <!-- kanan -->
@@ -111,13 +127,30 @@
                 <div class="keterangan w-full text-right mt-1 md:w-1/2">
                     <p class="text-yellow-300 font-poppins font-light text-sm">Mobile Apps</p>
                     <h2 class="text-gray-200 font-poppins font-regular  text-xl pb-1 md:text-3xl md:pb-4 md:pt-1 ">FOODPEDIA</h2>
-                    <p class="font-poppins text-gray-300 font-light text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium libero at assumenda labore reiciendis eaque nulla quis explicabo animi perferendis? Eius blanditiis vel quas corrupti consectetur voluptatibus dolorum minima nam!</p>
+                    <p class="font-poppins text-gray-300 font-light text-sm mb-2 md:mb-4 md:text-lg">
+                        
+FOODPEDIA is an mobile apps base on android that is used to display trending foods or drinks in a week. Built using Java and Material Design.
+                    </p>
+                    <a href="https://github.com/dimasmaspur/FoodPedia-App" target="_black" class="font-poppins font-light underline text-gray-400 hover:text-gray-200">View in Github</a>
                 </div>
                 <div class="gambar md:w-1/2">
                     <img src="public/images/foodpedia.jpg" alt="project dimas purwanto" class="w-full md:w-11/12 max-h md:float-right">
                 </div>
             </div>
-           
+             <!-- kiri -->
+             <div class="projectnya flex flex-col mt-8 md:flex-row md:mt-14">
+                <div class="gambar md:w-1/2">
+                    <img src="public/images/umkm.JPG" alt="project dimas purwanto" class="w-full md:w-11/12 max-h ">
+                </div>
+                <div class="keterangan w-full mt-1 md:w-1/2">
+                    <p class="text-yellow-300 font-poppins font-light text-sm">Website</p>
+                    <h2 class="text-gray-200 font-poppins font-regular  text-xl pb-1 md:text-3xl md:pb-4 md:pt-1 ">SIDAKUM</h2>
+                    <p class="font-poppins text-gray-300 font-light text-sm mb-2 md:mb-4 md:text-lg">
+                        SIDAKUM is a dashboard website for UMKM data management in the southern tangerang area</p>
+                    <a href="https://github.com/dimasmaspur" target="_blank" class="font-poppins font-light underline text-gray-400 hover:text-gray-200">View in Github</a>
+
+                </div>
+            </div>
         </div>
     </section>
     <section class="quote w-full bg-gray-100 py-5 md:py-8"> 
@@ -142,18 +175,18 @@
                         <p class="font-poppins font-light text-gray-300 text-sm pl-3 py-2">+6285717320558</p>
                     </div>
                     <div class="sosmed flex mt-10">
-                        <img src="public/images/github.svg" alt="github dimasmaspur" class="pl-4 pr-3">
-                        <img src="public/images/linkedin.svg" alt="linkedin dimasmaspur" class="px-3">
-                        <img src="public/images/ig.svg" alt="instagram dimasmaspur" class="px-3">
+                        <a href="" target="_blank"><img src="public/images/github.svg" alt="github dimasmaspur" class="pl-4 pr-3"></a>
+                        <a href="https://www.linkedin.com/in/dimasmaspur/" target="_blank"><img src="public/images/linkedin.svg" alt="linkedin dimasmaspur" class="px-3"></a>
+                        <a href="https://www.instagram.com/dimasmaspur/" target="_blank"><img src="public/images/ig.svg" alt="instagram dimasmaspur" class="px-3"></a>
                     </div>
                 </div>
             <div class="bg-gray-50 absolute ml-12 pl-80 pt-7 pr-20 md:w-9/12 md:pl-64 md:pr-8 lg:pl-72 lg:pr-12 lg:w-6/12">
                     <h1 class="font-poppins text-2xl text-blue-800">Get in Touch</h1> 
                     <p class="font-poppins text-sm font-light text-gray-400">Feel free to drop a line below</p>
-                    <form>
-                        <input type="text" placeholder="Your name" class="font-poppins w-full font-light text-sm py-3 px-3 mb-3 mt-11 bg-blue-50 rounded-md">
-                        <input type="text" placeholder="Your email" class="font-poppins w-full font-light text-sm py-3 px-3 mb-3 bg-blue-50 rounded-md">
-                        <textarea placeholder="Write a message" rows="6" class="font-poppins w-full font-light text-sm py-3  mb-1 px-3 bg-blue-50 rounded-md"></textarea>
+                    <form action="mailto:manajanjimanismu12@gmail.com?subject=name&body=comments" method="get" enctype="text/plain">
+                        <input type="text" placeholder="Your name" name="name" id="name" class="font-poppins w-full font-light text-sm py-3 px-3 mb-3 mt-11 bg-blue-50 rounded-md">
+                        <input type="text" placeholder="Your email" name="email" id="email" class="font-poppins w-full font-light text-sm py-3 px-3 mb-3 bg-blue-50 rounded-md">
+                        <textarea placeholder="Write a message" name="comments" rows="6" class="font-poppins w-full font-light text-sm py-3  mb-1 px-3 bg-blue-50 rounded-md"></textarea>
                         <input type="submit" value="SEND" class="py-2 px-3 w-full rounded-md bg-yellow-300 font-poppins text-white mb-10"> 
                     </form>
                 </div>
@@ -209,7 +242,7 @@
                     <img src="public/images/ig.svg" alt="instagram dimasmaspur" class="px-3">
             </div>
             <div class="cv  w-full pt-8 px-4 md:pt-20 ">
-                <a href="#" class="font-poppins  font-medium text-yellow-300 text-xl md:text-xl ">Download CV</a>
+                <a href="public/CV-DIMAS-PURWANTO.pdf" target="_blank" class="font-poppins  font-medium text-yellow-300 text-xl md:text-xl hover:text-yellow-200">Download CV</a>
             </div>
         </div> 
         <div class="container mx-auto w-full  border-b-2 border-yellow-300 mt-8 md:mt-16"></div>
